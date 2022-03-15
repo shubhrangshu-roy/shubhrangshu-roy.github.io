@@ -126,8 +126,8 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 .footer-bottom span{text-transform: uppercase; opacity: .4; font-weight: 200;}
 
 @media (max-width:1700px){
-.left-book{padding-left: 30%;}
-.right-book{padding-right: 30%}
+.left-book{padding-left: 22%;}
+.right-book{padding-right: 22%}
 .left-book p{left: 8.5%; top: 37.5%; right: 81%; text-align: justify;}
 .right-book p{right: 8.5%; top: 37.5%; left: 81%; text-align: justify;}
 
