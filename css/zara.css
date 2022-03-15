@@ -216,7 +216,7 @@ details[open] #close{display:block;}
     .flow-body h1{padding: 20px 4% 10px 4%;}
     .cardcontent-moon{width: 90%;}
     .cardcontent-moon h5, details{display:block; text-align: justify;}
-    details span #open{padding-left: 0px;}
+    details #open{padding-left: 0px;}
 
 }
 
