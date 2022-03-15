@@ -38,7 +38,7 @@ details {
   position:relative;
 }
 
-details span{padding-left: 30px;}
+details span{padding-left: 15px;}
 
 details summary {
   display:block;
@@ -214,6 +214,7 @@ details[open] #close{display:block;}
     .flow-body h1{padding: 20px 4% 10px 4%;}
     .cardcontent-moon{width: 90%;}
     .cardcontent-moon p, details{display:block; text-align: justify;}
+    .cardcontent-moon span{text-align: center;}
 
 }
 
