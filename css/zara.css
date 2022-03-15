@@ -179,7 +179,7 @@ details[open] #close{display:block;}
 
 .cardcontent-moon {width: 98%; padding: 0px 15px 0px 15px; display: inline; text-align: left;}
 
-.cardcontent-moon h5, details{text-decoration: none; display:inline; font-size: inherit;}
+.cardcontent-moon h5, details{font-weight: 100 !important; text-decoration: none; display:inline; font-size: inherit;}
 
 .noIMG {padding-top: 15px;}
 
