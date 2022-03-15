@@ -126,6 +126,11 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 .footer-bottom span{text-transform: uppercase; opacity: .4; font-weight: 200;}
 
 @media (max-width:1700px){
+
+  .nav > .nav-header > .nav-title{font-size: 40px; padding: 30px 10px 20px 10px;}
+  .nav > .nav-links span{font-size: 18px !important; margin: 0; padding: 0;}
+  .nav > .nav-links > ul li a {font-size: 18px;}
+
 .left-book{padding-left: 22%;}
 .right-book{padding-right: 22%}
 .left-book p{left: 10.5%; top: 38%; right: 79%; text-align: justify;}
