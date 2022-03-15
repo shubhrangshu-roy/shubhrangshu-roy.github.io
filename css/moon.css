@@ -1,4 +1,4 @@
-.book-block-M {background: #e192b9; width:100%; margin:auto; clear:both; overflow: hidden;}
+.book-block-M {background: #e192b9; width:100%; margin:auto; clear:both; overflow: hidden; padding-bottom: 100px;}
 
 .clear-BG{background: rgba(0, 0, 0, 0.0);}
 
@@ -34,8 +34,8 @@
 .moon-media {padding-top: 50px !important;}
 
 @media (max-width:750px) {
-    
+
     .cards-M {padding: 30px 0px 30px 0px;}
     .clear-bottom{margin-bottom: 130px;}
-    
+
 }
