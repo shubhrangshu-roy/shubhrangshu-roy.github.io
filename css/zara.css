@@ -180,7 +180,7 @@ details[open] #close{display:block;}
 
 .cardcontent {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify;}
 
-.cardcontent-moon {width: 98%; padding: 0px 15px 0px 15px; display: inline; text-align: left; overflow: hidden; height: auto;}
+.cardcontent-moon {width: 95%; padding: 0px 15px 0px 15px; display: inline; text-align: left; overflow: hidden; height: auto;}
 
 .cardcontent-moon h5, details{font-weight: 100 !important; text-decoration: none; display:inline; font-size: inherit; margin: 0; padding: 0;}
 
