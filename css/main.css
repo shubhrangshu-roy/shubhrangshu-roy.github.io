@@ -128,8 +128,8 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 @media (max-width:1700px){
 .left-book{padding-left: 20%;}
 .right-book{padding-right: 20%}
-.left-book p{left: 8.5%; top: 39.5%; right: 81%; text-align: justify;}
-.right-book p{right: 8.5%; top: 39.5%; left: 81%; text-align: justify;}
+.left-book p{left: 8.5%; top: 39%; right: 81%; text-align: justify;}
+.right-book p{right: 8.5%; top: 39%; left: 81%; text-align: justify;}
 
 .main-body{height: calc(100vh - 50px);}
 }
