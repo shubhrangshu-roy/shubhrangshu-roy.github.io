@@ -40,7 +40,7 @@ details {
 details summary {
   display:block;
   cursor: pointer;
-  color: red;
+  color: #089ca4;
 }
 details summary:focus {
   outline:none;
