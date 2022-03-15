@@ -214,7 +214,7 @@ details[open] #close{display:block;}
     .bigTitle {text-align: left; padding: 20px 20px 0px 25px; margin: 0;}
     .blog {height: calc(100vh - 50px); overflow:hidden;}
     .flow-body h1{padding: 20px 4% 10px 4%;}
-    .cardcontent-moon{width: 95%;}
+    .cardcontent-moon{width: 90%;}
     .cardcontent-moon h5, details{display:block; text-align: justify;}
 
 }
