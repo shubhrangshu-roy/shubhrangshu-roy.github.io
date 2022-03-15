@@ -59,7 +59,7 @@ details[open] summary {
   left:0;
 }
 
-details #open{padding-left:15px;text-align:middle;}
+details #open{padding-left:15px;text-align: center;}
 details #open:after{
     display: inline-block;
     position:relative;
