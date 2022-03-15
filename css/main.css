@@ -14,7 +14,7 @@ button {font-family: 'Arvo';}
 
 a {text-decoration: none;}
 
-.buffer{height:50vh; background: none; color: none;}
+.buffer{height:25vh; background: none; color: none;}
 
 #myBtn {
   display: none; /* Hidden by default */
