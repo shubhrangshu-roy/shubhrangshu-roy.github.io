@@ -54,7 +54,7 @@ a {text-decoration: none;}
 .bg-leaf {background: #76AA6D !important;}
 .bg-pale {background: #FEEE82 !important;}
 
-.nav {height: auto; width: 100%; position: relative; background-color: #fdad00; padding: 0 0 10px 0; z-index: 2;}
+.nav {height: auto; width: 100%; position: relative; background-color: #fdad00; padding: 0 0 10px 0; z-index: 100;}
 
 .nav > .nav-header {display: inline;}
 
