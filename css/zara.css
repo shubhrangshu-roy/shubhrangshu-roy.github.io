@@ -37,6 +37,9 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 details {
   position:relative;
 }
+
+details span{padding-left: 15px;}
+
 details summary {
   display:block;
   cursor: pointer;
