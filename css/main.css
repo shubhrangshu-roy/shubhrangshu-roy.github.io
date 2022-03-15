@@ -87,8 +87,8 @@ a {text-decoration: none;}
 .left-book{float: left; padding-left: 25%;}
 .right-book{float: right; padding-right: 25%}
 
-.left-book p{position: absolute; left: 15.4%; top: 31.5%; right: 76%; text-align: justify;}
-.right-book p{position: absolute; right: 15.4%; top: 31.5%; left: 76%; text-align: justify;}
+.left-book p{position: absolute; left: 15.4%; top: 31%; right: 76%; text-align: justify;}
+.right-book p{position: absolute; right: 15.4%; top: 31%; left: 76%; text-align: justify;}
 
 .left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), -200px 40px 0px 0px #EBEAEA;}
 .right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 200px 40px 0px 0px #EBEAEA;}
@@ -130,6 +130,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 .right-book{padding-right: 22%}
 .left-book p{left: 10.5%; top: 37.5%; right: 79%; text-align: justify;}
 .right-book p{right: 10.5%; top: 37.5%; left: 79%; text-align: justify;}
+
 
 .main-body{height: calc(100vh - 50px);}
 }
