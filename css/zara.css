@@ -213,8 +213,9 @@ details[open] #close{display:block;}
     .blog {height: calc(100vh - 50px); overflow:hidden;}
     .flow-body h1{padding: 20px 4% 10px 4%;}
     .cardcontent-moon{width: 90%;}
-    .cardcontent-moon p, details{display:block; text-align: justify;}
-    .cardcontent-moon span{text-align: center;}
+    .cardcontent-moon p{display:block; text-align: justify;}
+    .cardcontent-moon details{display: block;}
+    .cardcontent-moon details span{text-align: center;}
 
 }
 
