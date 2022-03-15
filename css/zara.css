@@ -47,7 +47,6 @@ details summary:focus {
 }
 details[open] {
   display:block;
-  padding-left: 15px;
   padding-bottom:25px;
   animation: open .2s linear;
 }
