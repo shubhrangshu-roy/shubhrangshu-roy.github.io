@@ -217,7 +217,7 @@ details[open] #close{display:block;}
     .cardcontent-moon{width: 90%;}
     .cardcontent-moon p{display:block; text-align: justify;}
     .cardcontent-moon details{display: block;}
-    .cardcontent-moon details summary span{text-align: center;}
+    .cardcontent-moon details summary{text-align: center;}
 
 }
 
