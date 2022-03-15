@@ -36,7 +36,6 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 details {
   position:relative;
-  float:right;
 }
 details summary {
   display:block;
