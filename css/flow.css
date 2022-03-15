@@ -1,0 +1,8 @@
+.flow-block {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden;}
+
+.flow-body h1{font-size: 50px;  padding: 50px 4% 10px 4%; font-weight: 100;}
+.flow-body h2{font-size: 30px; padding: 0 4% 0 4%; font-weight: 100;}
+.flow-body p{font-size: 20px; padding: 0 4% 0 4%;}
+
+.flow-block a{color: #000;}
+.flow-block a:hover{color: #fff;}

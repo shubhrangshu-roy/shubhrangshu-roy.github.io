@@ -1,0 +1,56 @@
+body {background: #089ca4;}
+
+.storyteller-body {width: 100%; margin: auto; overflow: hidden; padding: 0 2.5% 0 2.5%;}
+
+.storyteller-image {float: left; margin-top: 30px; margin-left: 3%; margin-bottom: 30px; padding: 1%;}
+.storyteller-image img{height: 600px; width: 500px; object-fit: cover;}
+
+.storyteller-text {width: 55%; padding: 1% 2% 1% 2%; margin-top: 30px; margin-bottom: 30px; margin-right: 3%; float:right; font-size: 25px; 
+                   color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); text-align: justify;}
+
+.card {background-color: #fff;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+}
+
+.cardcontent {width: 98%; padding:3% 1%; display: block;}
+
+.cardTitle {font-size: 30px; text-align: center;}
+
+.storyteller-block {background: #4E3C58; width:100%; display: block; margin-left:auto; margin-right: auto; clear:both; overflow: hidden;}
+
+.narrow {max-width: 1700px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 100px; margin-top: 50px;}
+
+.cardBig {background-color: #fff;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+}
+
+.heading{font-size: 50px; text-align: center; margin-bottom: 30px; padding-top: 30px;}
+
+.profile-text {color: #000; padding: 1% 2% 1% 2%; font-size: 25px; text-align: justify;}
+
+.ring img{width: 300px; display: block; margin-left: auto;  margin-right: auto; object-fit:contain;}
+
+@media (max-width:1280px) { .storyteller-text {font-size: 15px;}
+
+    .storyteller-image img{width: 300px; height: auto;}
+    .ring img{width: 200px; padding-top: 55px;}
+}
+
+@media (max-width:750px) {
+    
+    .storyteller-image{display: block; padding: 0; margin: 20px 0;  float: none;}
+    .center{display: block; margin-left: auto;  margin-right: auto;}
+    .storyteller-image img{width: 100%; height: 500px;}
+    .storyteller-text {width: 100%; display: block; font-size: 15px; margin: 0px 0px 30px 15px; text-align: justify; padding: 1% 5% 1% 5%;}
+    .ring img{height: 0px;}
+    .profile-text {font-size: 15px;}
+}
+

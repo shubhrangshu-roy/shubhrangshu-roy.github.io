@@ -1,0 +1,215 @@
+body {margin: 0;background: #EBEAEA;}/*#ea297e*/
+
+.banner{display: block; height: auto;}
+.banner img {margin-top:30px; width:100%;}
+
+.booksBody {width: 95%; margin: auto; overflow: hidden; display: flex; justify-content: center; align-items: center; column-gap:12%}
+
+.booksReview {width: 55%;
+               padding: 1%; margin-top: 30px; margin-bottom: 30px; margin-left: 3%;
+               float:left; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); 
+}
+
+.zaraCover {float: right; margin-top: 30px; margin-right: 5%; margin-bottom: 30px; padding: 1%;order: 1;}
+.zaraCover img{width: 420px; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);}
+
+.buyNow {color: #000;text-align: center;font-size: 20px; margin: 5px 0;}
+.buyNow a{color: #000;}
+.buyNow a:hover{color: #fff; transition: color 0.2s ease-in-out;}
+
+.bookBlock2 {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden;}
+.excerpts {width: 90%; margin: auto; text-align: left;}
+.italics{font-size: 20px; font-style: italic; margin: 30px;}
+
+.dearZara{font-size: 50px; padding: 30px 5% 0 5%; display: block;}
+.dearZara2{font-size: 25px; text-align: center;}
+
+.flow-body h1{font-size: 50px;  padding: 50px 4% 10px 4%; font-weight: 100;}
+.flow-body h2{font-size: 30px; padding: 0 4% 0 4%; font-weight: 100;}
+.flow-body p{font-size: 20px; padding: 0 4% 0 4%;}
+
+
+.narrow {max-width: 1500px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 100px; margin-top: 50px;}
+.narrow img {width: 98%; height:750px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
+
+.cardBig {background-color: #fff;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 30px;
+    margin-top: 40px;
+ 
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #fdad00;
+  text-align: center;
+  padding: 30px;
+}
+ 
+.quote {font-size:30px;text-align:left;}
+
+.byline {font-style: italic;font-size:15px !important;text-align:right; padding: 30px 15px 10px 0;}
+
+.item a{text-decoration: none; color: #000;}
+.item a:hover{color: #fff; transition: color 0.2s ease-in-out;}
+
+.bookBlock3 {width: 93%; margin:auto; clear:both; overflow: hidden;}
+
+.whiteHeading{color: #fff; font-size: 50px; text-align: center;margin-bottom: 30px;}
+.video {display: block; margin-top: 50px;}
+.video iframe{width: 1500px; height: 850px;}
+
+.gallery {width:90%; margin:auto;}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 18%;
+  max-width: 18%;
+  padding: 10px;
+}
+
+.column img {
+  margin: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.card {background-color: #fff;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+}
+
+.card-Y {background-color: #fdad00;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 2rem;
+  height: auto;
+  width: auto;
+}
+
+.card-Y a{text-decoration: none; color: #000;}
+.card-Y a:hover{color: #fff; transition: color 0.2s ease-in-out;}
+
+
+.cardNoIMG {background: rgba(0, 0, 0, 0);
+            color: #000;
+            padding: 1rem;
+            height: auto;
+            width: auto;
+}
+
+.cards {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px 0px 50px 0px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+.cards img {width: 98%; height:350px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
+
+.cardcontent {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify;}
+
+.noIMG {padding-top: 15px;}
+
+.cardTitle {font-size: 30px; text-align: left;}
+
+.bigTitle {font-size: 50px; text-align: center; margin-bottom: 30px; padding-top: 30px;}
+
+.video {width: 100%;}
+
+.blog {width: 100%; height: calc(100vh - 225px);}
+
+@media (max-width:1280px) { .booksReview {font-size: 20px;}
+    .zaraCover img{width: 350px;}}
+
+@media (max-width:750px) {
+    
+    .banner{display: block; height: 0px; overflow: hidden; margin:0; padding: 0;}
+    .booksBody{display: block;}
+    .zaraCover{display: block; padding: 0; margin: 20px 0;  float: none;}
+    .center{display: block; margin-left: auto;  margin-right: auto;}
+    .dearZara{font-size: 40px; padding: 30px 5% 0 5%;}
+    .zaraCover img{width: 100%;}
+    .booksReview {width: 100%; display: block; margin-left: auto;  margin-right: auto; font-size: 15px; margin-bottom: 30px; text-align: justify; padding: 0px 15px 0px 15px;}
+    .buyNow {font-size: 15px; margin: 10px 0;}
+    .excerpts{text-align: center;}
+    .cards {padding: 30px 0px 30px 0px;}
+    .video iframe{width: 90%; height: 400px;}
+    .narrow img { height:340px;}
+    .bigTitle {text-align: left; padding: 20px 20px 0px 25px; margin: 0;}
+    .blog {height: calc(100vh - 50px); overflow:hidden;}
+    .flow-body h1{padding: 20px 4% 10px 4%;}
+    
+}
+
+/*<div class="gallery"><div class="row">
+                <div class="column">
+                <img src="images/journey/TJ%20(1).jpg">
+                <img src="images/journey/TJ%20(2).jpg">
+                <img src="images/journey/TJ%20(3).jpg">
+                <img src="images/journey/TJ%20(4).jpg">
+                <img src="images/journey/TJ%20(5).jpg">
+                <img src="images/journey/TJ%20(6).jpg">
+                <img src="images/journey/TJ%20(7).jpg">
+                <img src="images/journey/TJ%20(8).jpg">
+                </div>
+                <div class="column">
+                <img src="images/journey/TJ%20(9).jpg">
+                <img src="images/journey/TJ%20(10).jpg">
+                <img src="images/journey/TJ%20(11).jpg">
+                <img src="images/journey/TJ%20(12).jpg">
+                <img src="images/journey/TJ%20(13).jpg">
+                <img src="images/journey/TJ%20(14).jpg">
+                <img src="images/journey/TJ%20(15).jpg">
+                <img src="images/journey/TJ%20(16).jpg">
+                </div>
+                <div class="column">
+                <img src="images/journey/TJ%20(17).jpg">
+                <img src="images/journey/TJ%20(18).jpg">
+                <img src="images/journey/TJ%20(19).jpg">
+                <img src="images/journey/TJ%20(20).jpg">
+                <img src="images/journey/TJ%20(21).jpg">
+                <img src="images/journey/TJ%20(22).jpg">
+                <img src="images/journey/TJ%20(23).jpg">
+                <img src="images/journey/TJ%20(24).jpg">
+                </div>
+                <div class="column">
+                <img src="images/journey/TJ%20(25).jpg">
+                <img src="images/journey/TJ%20(26).jpg">
+                <img src="images/journey/TJ%20(27).jpg">
+                <img src="images/journey/TJ%20(28).jpg">
+                <img src="images/journey/TJ%20(29).jpg">
+                <img src="images/journey/TJ%20(30).jpg">
+                <img src="images/journey/TJ%20(31).jpg">
+                </div>
+                <div class="column">
+                <img src="images/journey/TJ%20(33).jpg">
+                <img src="images/journey/TJ%20(34).jpg">
+                <img src="images/journey/TJ%20(35).jpg">
+                <img src="images/journey/TJ%20(36).jpg">
+                <img src="images/journey/TJ%20(37).jpg">
+                <img src="images/journey/TJ%20(38).jpg">
+                <img src="images/journey/TJ%20(39).jpg">
+                <img src="images/journey/TJ%20(32).jpg">
+                </div>
+            
+            
+            </div></div>*/

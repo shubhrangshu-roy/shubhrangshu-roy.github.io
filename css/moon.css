@@ -1,0 +1,41 @@
+.book-block-M {background: #e192b9; width:100%; margin:auto; clear:both; overflow: hidden;}
+
+.clear-BG{background: rgba(0, 0, 0, 0.0);}
+
+.clear-bottom{margin-bottom: 70px;}
+
+.card-M {
+  color: #000;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+}
+
+.cards-M {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px 0px 50px 0px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+.byline-box{padding-right: 6.5%; margin-bottom: 70px;}
+
+.byline-M {font-size:18px !important;text-align:right; padding: 30px 15px 10px 0;}
+
+.cards-M img {width: 98%; height:350px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
+
+.cardcontent-M {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify; font-size: 20px;}
+.excerpts p{padding: 0 5% 0 7%;}
+
+.noIMG-M {padding-top: 15px;}
+
+.moon-media {padding-top: 50px !important;}
+
+@media (max-width:750px) {
+    
+    .cards-M {padding: 30px 0px 30px 0px;}
+    .clear-bottom{margin-bottom: 130px;}
+    
+}
