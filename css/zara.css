@@ -178,9 +178,9 @@ details[open] #close{display:block;}
 
 .cards img {width: 98%; height:350px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
 
-.cardcontent {width: 98%; padding: 0; display: block; text-align: justify;}
+.cardcontent {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify;}
 
-.cardcontent-moon {width: 95%; padding: 0px 15px 0px 15px; display: inline; text-align: left; overflow: hidden; height: auto;}
+.cardcontent-moon {width: 95%; padding: 0; display: inline; text-align: left; overflow: hidden; height: auto;}
 
 .noIMG {padding-top: 15px;}
 
