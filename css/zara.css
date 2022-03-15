@@ -7,11 +7,13 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 .booksReview {width: 55%;
                padding: 1%; margin-top: 30px; margin-bottom: 30px; margin-left: 3%;
-               float:left; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); 
+               float:left; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .zaraCover {float: right; margin-top: 30px; margin-right: 5%; margin-bottom: 30px; padding: 1%;order: 1;}
 .zaraCover img{width: 420px; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);}
+
+.poem-z {line-height: 1.3;}
 
 .buyNow {color: #000;text-align: center;font-size: 20px; margin: 5px 0;}
 .buyNow a{color: #000;}
@@ -45,7 +47,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
   grid-template-columns: auto auto auto auto;
   grid-gap: 30px;
     margin-top: 40px;
- 
+
   padding: 10px;
 }
 
@@ -54,7 +56,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
   text-align: center;
   padding: 30px;
 }
- 
+
 .quote {font-size:30px;text-align:left;}
 
 .byline {font-style: italic;font-size:15px !important;text-align:right; padding: 30px 15px 10px 0;}
@@ -141,7 +143,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
     .zaraCover img{width: 350px;}}
 
 @media (max-width:750px) {
-    
+
     .banner{display: block; height: 0px; overflow: hidden; margin:0; padding: 0;}
     .booksBody{display: block;}
     .zaraCover{display: block; padding: 0; margin: 20px 0;  float: none;}
@@ -157,7 +159,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
     .bigTitle {text-align: left; padding: 20px 20px 0px 25px; margin: 0;}
     .blog {height: calc(100vh - 50px); overflow:hidden;}
     .flow-body h1{padding: 20px 4% 10px 4%;}
-    
+
 }
 
 /*<div class="gallery"><div class="row">
@@ -210,6 +212,6 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
                 <img src="images/journey/TJ%20(39).jpg">
                 <img src="images/journey/TJ%20(32).jpg">
                 </div>
-            
-            
+
+
             </div></div>*/
