@@ -182,6 +182,8 @@ details[open] #close{display:block;}
 
 .cardcontent-moon {width: 95%; padding: 0; display: inline; text-align: left; overflow: hidden; height: auto;}
 
+.cardcontent-moon details{display: inline;}
+
 .noIMG {padding-top: 15px;}
 
 .cardTitle {font-size: 30px; text-align: left;}
