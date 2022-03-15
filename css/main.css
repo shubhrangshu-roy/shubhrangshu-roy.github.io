@@ -176,8 +176,8 @@ p{z-index: 1;}
 .left-book p{position:relative; left: auto; right: auto; top: auto; text-align: justify; padding: 1% 25% 2% 25%;}
 .right-book p{position: relative; left: auto; right: auto; top: auto; text-align: justify; padding: 1% 25% 2% 25%;}
 
-.left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 85px #EBEAEA; overflow: hidden;}
-.right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 85px #EBEAEA; overflow: hidden;}
+.left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 100px #EBEAEA; overflow: hidden;}
+.right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 100px #EBEAEA; overflow: hidden;}
 
 }
 
