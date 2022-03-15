@@ -14,7 +14,7 @@ button {font-family: 'Arvo';}
 
 a {text-decoration: none;}
 
-.buffer{height:25vh; background: none; color: none;}
+.buffer{height:05vh; background: none; color: none;}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -140,6 +140,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 
 
 .main-body{height: calc(100vh - 50px);}
+.buffer{height:15vh;}
 }
 
 @media (max-width:1280px){
@@ -154,6 +155,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
     .right-book p{right: 5.5%; top: 40%; left: 81%; text-align: justify;}
 
     .main-body{height: calc(100vh - 50px);}
+    .buffer{height:25vh;}
 
 }
 
