@@ -177,6 +177,8 @@ details[open] #close{display:block;}
 
 .cardcontent {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify;}
 
+.cardcontent-moon {width: 98%; padding: 0px 15px 0px 15px; display: inline; text-align: left;}
+
 .noIMG {padding-top: 15px;}
 
 .cardTitle {font-size: 30px; text-align: left;}
