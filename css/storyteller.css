@@ -1,11 +1,9 @@
-body {background: #089ca4;}
-
-.storyteller-body {width: 100%; margin: auto; overflow: hidden; padding: 0 2.5% 0 2.5%;}
+.storyteller-body {background: #089ca4; width: 100%; margin: auto; overflow: hidden; padding: 0 2.5% 0 2.5%;}
 
 .storyteller-image {float: left; margin-top: 30px; margin-left: 3%; margin-bottom: 30px; padding: 1%;}
 .storyteller-image img{height: 600px; width: 500px; object-fit: cover;}
 
-.storyteller-text {width: 55%; padding: 1% 2% 1% 2%; margin-top: 30px; margin-bottom: 30px; margin-right: 3%; float:right; font-size: 25px; 
+.storyteller-text {width: 55%; padding: 1% 2% 1% 2%; margin-top: 30px; margin-bottom: 30px; margin-right: 3%; float:right; font-size: 25px;
                    color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); text-align: justify;}
 
 .card {background-color: #fff;
@@ -45,7 +43,7 @@ body {background: #089ca4;}
 }
 
 @media (max-width:750px) {
-    
+
     .storyteller-image{display: block; padding: 0; margin: 20px 0;  float: none;}
     .center{display: block; margin-left: auto;  margin-right: auto;}
     .storyteller-image img{width: 100%; height: 500px;}
@@ -53,4 +51,3 @@ body {background: #089ca4;}
     .ring img{height: 0px;}
     .profile-text {font-size: 15px;}
 }
-
