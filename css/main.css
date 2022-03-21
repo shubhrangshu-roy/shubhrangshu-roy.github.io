@@ -50,6 +50,7 @@ a {text-decoration: none;}
 .prayer-last {padding-bottom: 60px;}
 
 .comments{max-width: 1500px; display: flex;}
+.remarks{width: 100%; display: inline-block;}
 
 .bg-off {background: #EAEAEA !important;}
 .bg-fdad {background: #FDAD00 !important;}
