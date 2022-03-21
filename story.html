@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
             <span></span>
           </label>
         </div>
-        
+
         <div class="nav-links">
             <ul>
           <li><a href="/storyteller " target="_self">The Storyteller</a></li><span>|</span>
@@ -37,12 +37,54 @@
           <li><a href="/story " target="_self">Let's Write a Story Together</a></li><span>|</span>
           <li><a href="/flow " target="_self">Flow</a></li><span>|</span>
           <li><a href="/pic-vid " target="_self">Pictures & Videos</a></li>
-          
+
             </ul>
         </div>
       </div>
-        <div class="comments"></div>
-       <footer id="foot">        
+        <div class="comments">
+          <!-- Remarkbox - Your readers want to communicate with you -->
+          <div id="remarkbox-div">
+            <noscript>
+              <iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width:100%;border:none!important" tabindex=0></iframe>
+            </noscript>
+          </div>
+          <script src="https://my.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
+          <script>
+            var rb_owner_key = "94c66e29-a8fe-11ec-a4e1-b1c8c4ae987e";
+            var thread_uri = window.location.href;
+            var thread_title = window.document.title;
+            var thread_fragment = window.location.hash;
+
+            // rb owner was here.
+            var rb_src = "https://my.remarkbox.com/embed" +
+                "?rb_owner_key=" + rb_owner_key +
+                "&thread_title=" + encodeURI(thread_title) +
+                "&thread_uri=" + encodeURIComponent(thread_uri) +
+                thread_fragment;
+
+            function create_remarkbox_iframe() {
+              var ifrm = document.createElement("iframe");
+              ifrm.setAttribute("id", "remarkbox-iframe");
+              ifrm.setAttribute("scrolling", "no");
+              ifrm.setAttribute("src", rb_src);
+              ifrm.setAttribute("frameborder", "0");
+              ifrm.setAttribute("tabindex", "0");
+              ifrm.setAttribute("title", "Remarkbox");
+              ifrm.style.width = "100%";
+              document.getElementById("remarkbox-div").appendChild(ifrm);
+            }
+            create_remarkbox_iframe();
+            iFrameResize(
+              {
+                checkOrigin: ["https://my.remarkbox.com"],
+                inPageLinks: true,
+                initCallback: function(e) {e.iFrameResizer.moveToAnchor(thread_fragment)}
+              },
+              document.getElementById("remarkbox-iframe")
+            );
+          </script>
+        </div>
+       <footer id="foot">
             <div class="footer-content">
              <ul class="socials">
     <li> <p>All Rights Reserved. Copyright &copy;2021 Shubrangshu Roy.</p></li>
@@ -55,8 +97,8 @@
              </ul>
                 </div>
             <div class="footer-bottom">
-                   <p>All Rights Reserved. Copyright &copy;2021 Shubrangshu Roy.</p>      
-                    <p>Designed and maintained by Chandika Gupta and Shakya Sengupta.</p>            
+                   <p>All Rights Reserved. Copyright &copy;2021 Shubrangshu Roy.</p>
+                    <p>Designed and maintained by Chandika Gupta and Shakya Sengupta.</p>
             </div>
         </footer>
         <script type="text/javascript" src="/scripts/static-footer.js"></script>

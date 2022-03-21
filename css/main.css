@@ -49,6 +49,8 @@ a {text-decoration: none;}
 .prayer-text a:hover{color: #fff; transition: color 0.2s ease-in-out;}
 .prayer-last {padding-bottom: 60px;}
 
+.comments{width:95%;}
+
 .bg-off {background: #EAEAEA !important;}
 .bg-fdad {background: #FDAD00 !important;}
 .bg-pink {background: #E192B9 !important;}
@@ -165,7 +167,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
      .footer-bottom p{font-size: 12px; color: #fff;}
      .socials{margin-top: 1.5rem;}
      .footer-content p{height: 0px; color: rgba(0,0,0,0.0)}
-     
+
 p{z-index: 1;}
 
      .main-body{height: 125vh;}
