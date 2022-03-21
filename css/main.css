@@ -151,8 +151,8 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 
     .left-book{padding-left: 20%;}
     .right-book{padding-right: 20%}
-    .left-book p{left: 5.5%; top: 40%; right: 81%; text-align: justify;}
-    .right-book p{right: 5.5%; top: 40%; left: 81%; text-align: justify;}
+    .left-book p{left: 5.5%; top: 40%; right: 81%;}
+    .right-book p{right: 5.5%; top: 40%; left: 81%;}
 
     .main-body{height: calc(100vh - 50px);}
     .buffer{height:25vh;}
@@ -165,7 +165,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
      .footer-bottom p{font-size: 12px; color: #fff;}
      .socials{margin-top: 1.5rem;}
      .footer-content p{height: 0px; color: rgba(0,0,0,0.0)}
-
+     
 p{z-index: 1;}
 
      .main-body{height: 125vh;}
