@@ -49,8 +49,7 @@ a {text-decoration: none;}
 .prayer-text a:hover{color: #fff; transition: color 0.2s ease-in-out;}
 .prayer-last {padding-bottom: 60px;}
 
-.comments{max-width: 1500px; display: flex;}
-.remarks{width: 100%; display: inline-block;}
+.comments{max-width: 1500px; display: block; margin: auto;}
 
 .bg-off {background: #EAEAEA !important;}
 .bg-fdad {background: #FDAD00 !important;}
