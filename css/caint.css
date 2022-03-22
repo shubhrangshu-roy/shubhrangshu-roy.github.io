@@ -2,6 +2,7 @@ input[type='submit'], button, [aria-label] {
     cursor: pointer;
 }
 
+
 #editForm {
     display: none;
 }
