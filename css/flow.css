@@ -7,4 +7,7 @@
 .flow-block a{color: #000;}
 .flow-block a:hover{color: #fff;}
 
-iframe {width: 100%; height: 100vh;}
+.frame-wrapper {width: 100%;}
+.frame-wrapper iframe {width: 100%; height: calc(100vh - 225px);}
+
+@media (max-width:1050px) {.frame-wrapper iframe {height: calc(100vh - 50px);}}
