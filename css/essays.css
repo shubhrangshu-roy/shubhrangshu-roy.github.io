@@ -31,7 +31,7 @@ ul{list-style: none; margin: 0; padding: 0;}
 
 .content{padding: 0 1% 0 1%;}
 
-.essay {max-width: 1500px; display: block; margin-left: auto; margin-right: auto; background: rgba(255 , 255 , 255 , 0.2); margin-top: 3%; padding: 2%; display: block; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin-bottom: 80px;}
+.essay {max-width: 1500px; display: block; margin-left: auto; margin-right: auto; background: rgba(255 , 255 , 255 , 0.2); margin-top: 3%; padding: 2%; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin-bottom: 80px;}
 
 .essay p{margin-bottom: 1%; text-align: justify;}
 .essay .back-btn{float: right; padding: 2% 1% 0 1%;}
@@ -87,7 +87,7 @@ input[type="checkbox"]:checked ~ ul{
   height: 100%;
   transform-origin: top;
   transition: transform .3s ease-out;
-  transform: scaleY(1); 
+  transform: scaleY(1);
 }
 
 input[type="checkbox"]:checked + label{
@@ -98,33 +98,33 @@ input[type="checkbox"]:checked + label{
 @media (max-width:850px){.essay{margin-bottom: 180px;}}
 
 @media (max-width:750px) {
-    
+
     .blog-wrapper{width: 90%; height: calc(100vh - 180px);}
-    
+
     h1, h2, h3, h4, h5, h6{clear: both;}
-    
+
     h2{font-size: 20px;}
     h5{font-size: 15px;}
-    
+
     .blog-wrapper label {margin: 1%; padding: 3%;}
-    
+
     ul .bottom-gap{height: 25vh !important;}
-    
+
     ul ul li{padding: 3%;}
     ul ul .last{height: 500px;}
     .essay{max-width: 95%; padding: 5%; margin-bottom: 150px;}
-    
+
     .essay .back-btn, .back-btn-o{font-size: 12px !important; background: rgba(255 , 255 , 255 , 0.2); box-sizing: border-box; border-radius: 10px;}
-    
+
     .essay .back-btn {margin: 4% 1% 0 1%; padding: 10px;}
-    
+
     .essay .back-btn-o{float: left !important; margin-bottom: 6%; padding: 10px;}
-    
+
     .essay a:hover{color: #000 !important; background: rgba(255 , 255 , 255 , 0.5); transition: 0.2s ease-in-out;}
-    
+
     .essay iframe {height: 380px;}
-    
+
     .accord-pages{position: relative !important;}
-    
-    
+
+
 }
