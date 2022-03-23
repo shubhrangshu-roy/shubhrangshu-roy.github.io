@@ -164,7 +164,7 @@ details[open] #close{display:block;}
 .card iframe{display: block; overflow: hidden; border: none; width:100%; height: 380px;}
 
 .card-tall {grid-row: span 2 / auto;}
-.card-tall iframe{height: calc(760px + 1rem) !important;}
+.card-tall iframe{height: calc(800px + 1rem) !important;}
 .card-wide {grid-column: span 2 / auto;}
 .card-wide iframe{width:100%;}
 .card-filler {height: 0 !important; padding: 0 !important;}
