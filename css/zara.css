@@ -148,7 +148,7 @@ details[open] #close{display:block;}
   width: auto;
 }
 
-.card iframe{overflow: hidden; border: none; width:100%; height: 400px;}
+.card iframe{overflow: hidden; border: none; width:100%; height: 350px;}
 
 .card-Y {background-color: #fdad00;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
