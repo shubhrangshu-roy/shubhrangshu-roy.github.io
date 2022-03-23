@@ -87,18 +87,6 @@ a {text-decoration: none;}
 
 .nav .nav-links ul a i{background-color: #fff; border-radius: 50px; padding: 7px; margin-left: 5px;}
 
-.main-body{width:100%; padding-top: 30px; overflow:visible; height: calc(100vh - 225px);}
-.main-body img{width: 350px;}
-
-.left-book{float: left; padding-left: 25%;}
-.right-book{float: right; padding-right: 25%}
-
-.left-book p{position: absolute; left: 15.4%; top: 31.5%; right: 76%; text-align: left;}
-.right-book p{position: absolute; right: 15.4%; top: 31.5%; left: 76%; text-align: left;}
-
-.left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), -200px 48px 0px 8px #EBEAEA;}
-.right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 200px 48px 0px 8px #EBEAEA;}
-
 .main-grid{display: flex;  justify-content: center;  align-items: stretch; height: auto; column-gap: 3rem; margin: 0 7rem 0 7rem; height: auto; overflow: visible;}
 
 .main-grid>div{flex: 1 1 0; height: auto;}
@@ -148,13 +136,8 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
   .nav > .nav-links span{font-size: 18px !important; margin: 0; padding: 0;}
   .nav > .nav-links > ul li a {font-size: 18px;}
 
-.left-book{padding-left: 22%;}
-.right-book{padding-right: 22%}
-.left-book p{left: 10.5%; top: 27.5%; right: 79%; text-align: justify;}
-.right-book p{right: 10.5%; top: 27.5%; left: 79%; text-align: justify;}
 
 
-.main-body{height: calc(100vh - 50px);}
 .buffer{height:15vh;}
 }
 
@@ -164,12 +147,8 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
     .nav > .nav-links span{font-size: 18px !important; margin: 0; padding: 0;}
     .nav > .nav-links > ul li a {font-size: 18px;}
 
-    .left-book{padding-left: 20%;}
-    .right-book{padding-right: 20%}
-    .left-book p{left: 5.5%; top: 40%; right: 81%;}
-    .right-book p{right: 5.5%; top: 40%; left: 81%;}
 
-    .main-body{height: calc(100vh - 50px);}
+
     .buffer{height:25vh;}
 
 }
@@ -183,27 +162,14 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 
 p{z-index: 1;}
 
-     .main-body{height: 125vh;}
-
-.main-body img{max-width: 80%; object-fit: contain; outline: 0px solid #fdad00;}
-
-.left-book{width: 100%; margin-bottom: 50px; padding: 0; float: none; clear:both; overflow: hidden;}
-.right-book{width: 100%; margin-bottom: 50px; padding: 0; float: none; clear:both; overflow: hidden;}
-
 .center{display: block; margin-left: auto;  margin-right: auto;}
-
-.left-book p{position:relative; left: auto; right: auto; top: auto; text-align: justify; padding: 1% 25% 2% 25%;}
-.right-book p{position: relative; left: auto; right: auto; top: auto; text-align: justify; padding: 1% 25% 2% 25%;}
-
-.left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 100px #EBEAEA; overflow: hidden;}
-.right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 0px 210px 0px 100px #EBEAEA; overflow: hidden;}
 
 }
 
 
-@media (max-width:820px) {.main-body{height: 145vh;}}
+@media (max-width:820px) {}
 
-@media (max-width:768px) {.main-body{height: 175vh;}}
+@media (max-width:768px) {}
 
   @media (max-width:750px) {
 
@@ -290,10 +256,7 @@ p{z-index: 1;}
 
       footer ul{padding-inline-start: unset;}
 
-      .left-book p{padding: 1% 7% 2% 7%;}
-      .right-book p{padding: 1% 7% 2% 7%;}
-
-      .main-body{height: 215vh;}
+    
 
       #myBtn{right: 2%; bottom: 140px; padding: 0.5rem;}
 
