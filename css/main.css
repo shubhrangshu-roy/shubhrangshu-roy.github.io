@@ -168,9 +168,9 @@ p{z-index: 1;}
 
 .center{display: block; margin-left: auto;  margin-right: auto;}
 
-.main-grid{flex-direction: column; row-gap: 0.5rem; margin: 0 2rem 0 2rem;}
+.main-grid{flex-direction: column; row-gap: 0; margin: 0;}
 
-.book-segment{font-size: 15px; padding: 1rem; margin: 0rem -1rem 1rem -1rem;}
+.book-segment{font-size: 15px; padding: 1rem; margin: 0rem -1rem 1rem -2rem;}
 
 .si1{order: 1;}
 .si2{order: 2;}
