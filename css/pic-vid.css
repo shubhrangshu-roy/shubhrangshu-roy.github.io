@@ -1,34 +1,3 @@
-iframe {overflow: hidden; border: none; width:100%; height:100%;}
-
-.image-mosaic {
-  width: 90%;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-auto-rows: 240px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  font-size: 3rem;
-  color: #000;
-  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-  height: 100%;
-  width: 100%;
-  border-radius: 4px;
-  transition: all 500ms;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 1rem;
-  margin: 0;
-}
-
 @media screen and (min-width: 600px) {
   .card-tall {
     grid-row: span 2 / auto;
