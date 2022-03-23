@@ -170,7 +170,7 @@ p{z-index: 1;}
 
 .main-grid{flex-direction: column; row-gap: 0; margin: 0 1rem 0 1rem;}
 
-.book-segment{font-size: 15px; padding: 1rem; margin: 0rem 0rem 1rem 0rem;}
+.book-segment{font-size: 15px; padding: 1rem; margin: 0rem 0rem 2rem 0rem;}
 
 .si1{order: 1;}
 .si2{order: 2;}
