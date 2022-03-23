@@ -99,13 +99,13 @@ a {text-decoration: none;}
 .left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), -200px 48px 0px 8px #EBEAEA;}
 .right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 200px 48px 0px 8px #EBEAEA;}
 
-.main-grid{display: flex;  justify-content: center;  align-items: center; height: auto; column-gap: 1rem; margin: 0 2rem 0 2rem; height: auto; overflow: hidden;}
+.main-grid{width: 90%; display: flex;  justify-content: center;  align-items: stretch; height: auto; column-gap: 1rem; margin: 0 2rem 0 2rem; height: auto; overflow: hidden;}
 
 .main-grid>div{flex: 1 1 0; height: auto;}
 .main-grid>div img{width: 100%; object-fit: contain;}
 .main-grid>div p{margin: 0; padding: 0;}
 .main-grid>div .cat{text-align: center;}
-.book-segment{padding: 1rem;}
+.book-segment{padding: 1rem; margin-top: 5rem;}
 
 
 .b-t{border: 2px red solid;}
