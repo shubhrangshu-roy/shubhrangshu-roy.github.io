@@ -105,7 +105,7 @@ a {text-decoration: none;}
 .main-grid>div img{width: 100%; object-fit: contain;}
 .main-grid>div p{margin: 0; padding: 0;}
 .main-grid>div .cat{text-align: center;}
-.book-segment{padding: 0.5rem !important;}
+.book-segment{padding: 1rem;}
 
 
 .b-t{border: 2px red solid;}
