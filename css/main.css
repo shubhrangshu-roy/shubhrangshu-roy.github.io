@@ -103,8 +103,10 @@ a {text-decoration: none;}
 
 .main-grid>div{flex: 1 1 0; height: 100%;}
 .main-grid>div img{width: 100%; object-fit: contain;}
-.main-grid>div .cat{text-align: center;}
 .main-grid>div p{margin: 0; padding: 0;}
+.main-grid>div .cat{text-align: center;}
+.main-grid>div .lat{padding: 0.5rem;}
+
 
 .b-t{border: 2px red solid;}
 
