@@ -172,6 +172,10 @@ p{z-index: 1;}
 
 .book-segment{font-size: 15px; padding: 1rem; margin: 0rem -1rem 1rem -1rem;}
 
+.si1{order: 1;}
+.si2{order: 2;}
+.si3{order: 3;}
+
 }
 
 
