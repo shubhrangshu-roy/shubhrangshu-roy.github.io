@@ -101,9 +101,9 @@ a {text-decoration: none;}
 
 .main-grid{display: flex;  justify-content: center;  align-items: stretch; height: auto; column-gap: 1rem; margin: 0 7rem 0 7rem; height: auto; overflow: visible;}
 
-.main-grid>div{flex: 1 1 0; height: auto; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); }
+.main-grid>div{flex: 1 1 0; height: auto;}
 .main-grid>div img{width: 100%; object-fit: contain;}
-.main-grid>div p{margin: 0; padding: 0;}
+.main-grid>div p{margin: 0; padding: 0; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);}
 .main-grid>div .cat{text-align: center;}
 .book-segment{font-size: 20px; padding: 1rem; margin: 5rem 1rem 0 1rem;}
 
