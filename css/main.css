@@ -102,7 +102,7 @@ a {text-decoration: none;}
 .main-grid{ display: flex;  justify-content: center;  align-items: center; height: auto;}
 
 .main-grid>div{padding: 7px auto; margin: 7px auto; height: 750px;}
-.main-grid .book-segment img{width: 350px; object-fit: contain;}
+.main-grid>div img{width: 350px; object-fit: contain;}
 
 .b-t{border: 2px red solid;}
 
