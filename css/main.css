@@ -103,6 +103,7 @@ a {text-decoration: none;}
 
 .main-grid>div{flex: 1 1 0;}
 .main-grid>div img{width: 350px; object-fit: contain;}
+.main-grid>div p{text-align: center;}
 
 .b-t{border: 2px red solid;}
 
