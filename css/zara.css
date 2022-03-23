@@ -21,7 +21,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 .buyNow a{color: #000;}
 .buyNow a:hover{color: #fff; transition: color 0.2s ease-in-out;}
 
-.bookBlock2 {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden;}
+.book-block-2 {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden;}
 .excerpts {width: 90%; margin: auto; text-align: left;}
 .italics{font-size: 20px; font-style: italic; margin: 30px;}
 
@@ -117,7 +117,7 @@ details[open] #close{display:block;}
 .item a{text-decoration: none; color: #000;}
 .item a:hover{color: #fff; transition: color 0.2s ease-in-out;}
 
-.bookBlock3 {width: 93%; margin:auto; clear:both; overflow: hidden;}
+.book-block-3 {width: 93%; margin:auto; clear:both; overflow: hidden;}
 
 .whiteHeading{color: #fff; font-size: 50px; text-align: center;margin-bottom: 30px;}
 
