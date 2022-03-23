@@ -161,7 +161,7 @@ details[open] #close{display:block;}
   width: auto;
 }
 
-.card iframe{display: block; overflow: hidden; border: none; width:100%; height: 360px;}
+.card iframe{display: block; overflow: scroll; border: none; width:100%; height: 360px;}
 
 .card-tall {grid-row: span 2 / auto;}
 .card-tall iframe{height: calc(720px + 1rem) !important;}
