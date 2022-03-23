@@ -101,7 +101,7 @@ a {text-decoration: none;}
 
 .main-grid{width: 100%; display: flex;  flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; align-content: center; overflow: hidden;}
 
-.book-segment {flex-grow: 1;}
+.book-segment {width: 22%; flex-grow: 1;}
 .book-segment img{width: 350px; object-fit: contain;}
 
 footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
