@@ -36,9 +36,8 @@
 
 .ring img{width: 300px; display: block; margin-left: auto;  margin-right: auto; object-fit:contain;}
 
-.tnyt {display: flex;}
+.tnyt {display: flex; align-items: center; justify-content: center;}
 .tnyt img{width: 70%; height:auto; object-fit: cover;}
-.t-image{display: inline-block; margin: auto;}
 
 @media (max-width:1280px) { .storyteller-text {font-size: 15px;}
 
