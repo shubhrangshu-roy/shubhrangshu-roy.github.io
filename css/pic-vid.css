@@ -1,7 +1,7 @@
 iframe {overflow: hidden; border: none; width:100%; height:100%;}
 
 .image-mosaic {
-  width: 90%
+  width: 90%;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
