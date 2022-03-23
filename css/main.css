@@ -101,8 +101,8 @@ a {text-decoration: none;}
 
 .main-grid{width: 100%; display: flex;  flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; align-content: center; overflow: hidden;}
 
-.book-segment {box-sizing: border-box; padding: 7px auto; margin: 7px auto;}
-.book-segment img{width: 350px; object-fit: contain;}
+.main-grid .book-segment {box-sizing: border-box; padding: 7px auto; margin: 7px auto;}
+.main-grid .book-segment img{width: 350px; object-fit: contain;}
 
 .b-t{border: 2px red solid;}
 
