@@ -160,7 +160,7 @@ details[open] #close{display:block;}
 }
 
 .card-tall {grid-row: span 2 / auto;}
-.card-tall iframe{height: calc(720px + 1rem) !important;}
+.card-tall iframe{height: 100% !important;}
 .card-wide {grid-column: span 2 / auto;}
 .card-filler {height: 0 !important; padding: 0 !important;}
 
