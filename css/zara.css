@@ -159,12 +159,14 @@ details[open] #close{display:block;}
   width: auto;
 }
 
+.card iframe{display: block; overflow: hidden; border: none; width:100%; height: 360px;}
+
 .card-tall {grid-row: span 2 / auto;}
 .card-tall iframe{height: 100% !important;}
 .card-wide {grid-column: span 2 / auto;}
 .card-filler {height: 0 !important; padding: 0 !important;}
 
-.card iframe{overflow: hidden; border: none; width:100%; height: 360px;}
+
 
 .card-Y {background-color: #fdad00;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
