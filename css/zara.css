@@ -164,7 +164,8 @@ details[open] #close{display:block;}
 .card iframe{display: block; overflow: hidden; border: none; width: 100%; max-width: 600px; height: 360px; margin: auto;}
 
 .card-tall iframe{height: calc(780px + 1rem) !important;}
-
+.card-tall {grid-row: span 2 / auto;}
+.card-wide {grid-column: span 2 / auto;}
 .card-filler {height: 0 !important; padding: 0 !important;}
 
 .card-Y {background-color: #fdad00;
@@ -205,10 +206,6 @@ details[open] #close{display:block;}
 
 .blog {width: 100%; height: calc(100vh - 225px);}
 
-@media screen and (min-width: 600px) {
-  .card-tall {grid-row: span 2 / auto;}
-  .card-wide {grid-column: span 2 / auto;}}
-
 @media (max-width:1280px) { .booksReview {font-size: 20px;}
     .zaraCover img{width: 350px;}}
 
@@ -233,6 +230,8 @@ details[open] #close{display:block;}
     .cardcontent-moon p{display:block; text-align: justify;}
     .cardcontent-moon details{display: block;}
     .cardcontent-moon details summary{text-align: center;}
+    .card-tall {grid-row: span 1 / auto;}
+    .card-wide {grid-column: span 1 / auto;}
 
 }
 
