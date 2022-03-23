@@ -147,6 +147,10 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
     .nav > .nav-links span{font-size: 18px !important; margin: 0; padding: 0;}
     .nav > .nav-links > ul li a {font-size: 18px;}
 
+    .main-grid{column-gap: 2rem; margin: 0 4rem 0 4rem;}
+
+  .book-segment{font-size: 15px; padding: 1rem; margin: 3rem -1rem 4rem -1rem;}
+
 
 
     .buffer{height:25vh;}
@@ -256,7 +260,7 @@ p{z-index: 1;}
 
       footer ul{padding-inline-start: unset;}
 
-    
+
 
       #myBtn{right: 2%; bottom: 140px; padding: 0.5rem;}
 
