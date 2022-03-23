@@ -34,7 +34,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 
 .narrow {max-width: 1500px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 100px; margin-top: 50px;}
-.narrow img {width: 98%; height:750px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
+.narrow img {width: 98%; height:750px; object-fit: cover; padding: 15px 15px 0px 15px; display: block; margin-left: auto;  margin-right: auto;}
 
 details {
   position:relative;
