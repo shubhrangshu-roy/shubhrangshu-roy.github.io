@@ -194,7 +194,7 @@ details[open] #close{display:block;}
 
 .bigTitle {font-size: 50px; text-align: center; margin-bottom: 30px; padding-top: 30px;}
 
-.video {width: 100%;}
+.video {max-width: 1350px;}
 
 .blog {width: 100%; height: calc(100vh - 225px);}
 
