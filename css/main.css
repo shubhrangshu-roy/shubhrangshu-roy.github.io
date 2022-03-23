@@ -104,7 +104,7 @@ a {text-decoration: none;}
 .book-segment {width: 22%; flex-grow: 1; padding: 7px auto; margin: 7px auto;}
 .book-segment img{width: 350px; object-fit: contain;}
 
-.b-t{border: 2px red;}
+.b-t{border: 2px red solid;}
 
 footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 
