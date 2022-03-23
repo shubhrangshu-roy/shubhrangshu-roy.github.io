@@ -149,6 +149,8 @@ details[open] #close{display:block;}
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
+.cards-pv {grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)) !important;}
+
 .cards img {width: 98%; height:350px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
 
 .card {background-color: #fff;
