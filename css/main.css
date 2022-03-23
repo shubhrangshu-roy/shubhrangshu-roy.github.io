@@ -99,7 +99,7 @@ a {text-decoration: none;}
 .left-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), -200px 48px 0px 8px #EBEAEA;}
 .right-book img{box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2), 200px 48px 0px 8px #EBEAEA;}
 
-.main-grid{display: flex;  justify-content: center;  align-items: center; height: auto; column-gap: 2em;}
+.main-grid{display: flex;  justify-content: center;  align-items: center; height: auto; column-gap: 2rem;}
 
 .main-grid>div{padding: 7px; margin: 7px; height: 750px;}
 .main-grid>div img{width: 350px; object-fit: contain;}
