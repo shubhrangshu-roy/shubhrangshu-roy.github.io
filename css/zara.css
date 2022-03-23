@@ -120,8 +120,6 @@ details[open] #close{display:block;}
 .bookBlock3 {width: 93%; margin:auto; clear:both; overflow: hidden;}
 
 .whiteHeading{color: #fff; font-size: 50px; text-align: center;margin-bottom: 30px;}
-.video {display: block; margin-top: 50px;}
-.video iframe{width: 1500px; height: 850px;}
 
 .gallery {width:90%; margin:auto;}
 
@@ -195,6 +193,7 @@ details[open] #close{display:block;}
 .bigTitle {font-size: 50px; text-align: center; margin-bottom: 30px; padding-top: 30px;}
 
 .video {max-width: 1200px; margin: 0 auto;}
+.video iframe{width:100%; height: 850px;}
 
 .blog {width: 100%; height: calc(100vh - 225px);}
 
