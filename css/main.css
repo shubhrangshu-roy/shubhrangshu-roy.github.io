@@ -182,7 +182,7 @@ p{z-index: 1;}
   @media (max-width:750px) {
 
 
-      .nav{padding-bottom: 0;}
+      .nav{padding-bottom: 5px;}
 
     .nav > .nav-header > .nav-title {
     text-align: left;
