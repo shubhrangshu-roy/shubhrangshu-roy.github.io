@@ -232,6 +232,7 @@ details[open] #close{display:block;}
     .cardcontent-moon p{display:block; text-align: justify;}
     .cardcontent-moon details{display: block;}
     .cardcontent-moon details summary{text-align: center;}
+    .photo-credit{padding-right: 5%;}
 
 }
 
