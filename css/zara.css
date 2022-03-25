@@ -32,7 +32,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 .flow-body h2{font-size: 30px; padding: 0 4% 0 4%; font-weight: 100;}
 .flow-body p{font-size: 20px; padding: 0 4% 0 4%;}
 
-.big-credits {width:45%; float: right; font-size: 15px !important; text-align: left; padding: 0; margin: 7px 0;}
+.big-credits {width:45%; float: right; font-size: 15px !important; text-align: right; padding: 0; margin: 7px 0;}
 
 .narrow {max-width: 1500px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 100px; margin-top: 50px;}
 .narrow img {width: 98%; height:750px; object-fit: cover; padding: 15px 15px 0px 15px; display: block; margin-left: auto;  margin-right: auto;}
