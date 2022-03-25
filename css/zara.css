@@ -5,7 +5,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 .booksBody {width: 95%; margin: auto; overflow: hidden; display: flex; justify-content: center; align-items: center; column-gap:6%}
 
-.booksReview {padding: 1%; margin-top: 30px; margin-bottom: 30px; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+.booksReview {padding: 1%; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .zaraCover {float: right; margin-top: 1.5rem; padding: 1%; order: 1;}
