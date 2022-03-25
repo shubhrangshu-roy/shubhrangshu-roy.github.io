@@ -3,8 +3,8 @@ a:hover{color: #3462FA; transition: all 0.2s ease-in-out;}
 
 .book-block-P {background: #e192b9; width:100%; margin:auto; clear:both; overflow: hidden;}
 
-h6 {text-decoration: none; font-size: 15px; margin: 0; padding: 0; font-weight: 100; text-align: right;}
-h5 {text-decoration: none; font-size: 15px; margin: 0; padding: 0;}
+.cards-P>.card>.cardcontent h6 {text-decoration: none; font-size: 15px; margin: 0; padding: 0; font-weight: 100; text-align: right;}
+.cards-P>.card>.cardcontent h5 {text-decoration: none; font-size: 15px; margin: 0; padding: 0;}
 
 .off-white{background: #EBEAEA !important;}
 
@@ -50,7 +50,7 @@ h5 {text-decoration: none; font-size: 15px; margin: 0; padding: 0;}
   z-index: 2;
 }
 
-.msa-popup { 
+.msa-popup {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
@@ -85,12 +85,12 @@ h5 {text-decoration: none; font-size: 15px; margin: 0; padding: 0;}
 	margin: 0 auto;
 	max-width: 600px;
 	text-align: center;
-	
+
 }
 
 @media (max-width:750px) {
-    
+
     .cards-P {padding: 30px 0px 30px 0px;}
     .msa-popup {width: 90%; overflow-x:hidden; overflow-y:auto; min-height:300px; max-height: 85%;}
-    
+
 }
