@@ -3,14 +3,12 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 .banner{display: block; height: auto;}
 .banner img {margin-top:30px; width:100%;}
 
-.booksBody {width: 95%; margin: auto; overflow: hidden; display: flex; justify-content: center; align-items: center; column-gap:12%}
+.booksBody {width: 95%; margin: auto; overflow: hidden; display: flex; justify-content: center; align-items: center; column-gap:6%}
 
-.booksReview {width: 55%;
-               padding: 1%; margin-top: 30px; margin-bottom: 30px; margin-left: 3%;
-               float:left; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+.booksReview {padding: 1%; margin-top: 30px; margin-bottom: 30px; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.zaraCover {float: right; margin-top: 30px; margin-right: 5%; margin-bottom: 30px; padding: 1%;order: 1;}
+.zaraCover {float: right; margin-top: 1.5rem; padding: 1%; order: 1;}
 .zaraCover img{width: 420px; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);}
 
 .photo-credit{text-align: right !important; padding-right: 2%; font-size: 12px !important; margin: 2px 0 15px 0 !important;}
