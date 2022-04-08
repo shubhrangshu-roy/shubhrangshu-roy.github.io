@@ -60,7 +60,7 @@ a {text-decoration: none;}
 .bg-leaf {background: #76AA6D !important;}
 .bg-pale {background: #FEEE82 !important;}
 
-.image-center{display: flex; justify-content: center;  align-items: center; height: auto; column-gap: 3rem; margin: 1rem 7rem 0 7rem; height: auto; overflow: visible;}
+.image-center{display: flex; justify-content: center;  align-items: center; height: auto; column-gap: 3rem; margin: 0 7rem 0 7rem; height: auto; overflow: visible;}
 
 .nav {height: auto; width: 100%; position: relative; background-color: #fdad00; padding: 0 0 10px 0; z-index: 100;}
 
@@ -161,7 +161,7 @@ footer{background: #111; height: auto; width: 100%; color: #fff; clear: both;}
 
 }
 
-@media (max-width:1280px){.book-segment{font-size: 13px;}}
+@media (max-width:1280px){.book-segment{font-size: 13px; margin: 4rem -1rem 4rem -1rem;}}
 
  @media (max-width:1050px) {
      footer{position: inherit;}
