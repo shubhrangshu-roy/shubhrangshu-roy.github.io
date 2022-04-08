@@ -60,7 +60,7 @@ a {text-decoration: none;}
 .bg-leaf {background: #76AA6D !important;}
 .bg-pale {background: #FEEE82 !important;}
 
-.image-center{display: flex; justify-content: center;  align-items: center; height: auto; column-gap: 3rem; margin: 0 7rem 0 7rem; height: auto; overflow: visible;}
+.image-center{display: flex; justify-content: center;  align-items: center; height: auto; column-gap: 3rem; margin: 1rem 7rem 0 7rem; height: auto; overflow: visible;}
 
 .nav {height: auto; width: 100%; position: relative; background-color: #fdad00; padding: 0 0 10px 0; z-index: 100;}
 
