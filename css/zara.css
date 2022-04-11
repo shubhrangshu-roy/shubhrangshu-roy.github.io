@@ -144,7 +144,7 @@ details[open] #close{display:block;}
 .cards {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 0 5rem 0;
+  padding: 2rem 0 5rem 0;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
