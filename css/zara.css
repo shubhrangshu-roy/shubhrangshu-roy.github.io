@@ -5,7 +5,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 .booksBody {width: 95%; margin: auto; overflow: hidden; display: flex; justify-content: center; align-items: center; column-gap:6%}
 
-.booksReview {padding: 2rem; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); margin-top: 2rem;
+.booksReview {padding: 2rem; font-size: 25px; color: #000; background: rgba(255, 255, 255, 1.0); box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); margin-top: 2.5rem; margin-bottom: 2.5rem;
 }
 
 .booksReview>details h3{text-align: right;}
