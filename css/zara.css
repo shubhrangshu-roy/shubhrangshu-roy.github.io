@@ -10,6 +10,8 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 
 .booksReview>details h3{text-align: right;}
 
+.no-style{font-style:normal !important;}
+
 .zaraCover {float: right; margin-top: 1.5rem; padding: 1%; order: 1;}
 .zaraCover img{width: 420px; box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);}
 
