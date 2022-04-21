@@ -40,7 +40,7 @@
 
 .moon-media {padding-top: 50px !important;}
 
-@media (max-width:1440px) {.cards-M2 {grid-gap: 0.25rem; margin: 0 2rem 0 2rem;}}
+@media (max-width:1440px) {.cards-M2 {grid-gap: 0.25rem; margin: 0 1rem 0 1rem;}}
 
 @media (max-width:750px) {
 
