@@ -36,7 +36,7 @@
 
 .ring img{width: 300px; display: block; margin-left: auto;  margin-right: auto; object-fit:contain;}
 
-.clock img{width: 150px; display: block; margin-left: auto;  margin-right: auto; object-fit:contain;}
+.clock img{width: 150px; display: block; margin-left: auto;  margin-right: auto; object-fit:contain; padding: 0 0 1rem 0;}
 
 .tnyt {display: flex; align-items: center; justify-content: center;}
 .tnyt img{width: 70%; height:auto; object-fit: cover;}
