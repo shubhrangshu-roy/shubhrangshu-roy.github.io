@@ -45,7 +45,8 @@ a {text-decoration: none;}
 
 .dearZara{font-size: 50px; text-align: center;margin-bottom: 30px; padding-top: 30px;}
 
-.prayer-blocks {width:100%; margin:auto; clear:both; overflow: hidden;}
+.prayer-wrapper{width: 100%; background: #fff;}
+.prayer-blocks {width:100%; margin:2rem 4rem 2rem 4rem; clear:both; overflow: hidden;}
 .prayer-text {width:40%; font-size: 25px; text-align: center; margin-bottom: 30px; margin-left: auto; margin-right: auto;}
 .prayer-text a{color: #000;}
 .prayer-text a:hover{color: #fff; transition: color 0.2s ease-in-out;}
