@@ -79,15 +79,15 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"] ~ ul{
-  height: 0;
-  transform: scaleY(0);
-}
-
-input[type="checkbox"]:checked ~ ul{
   height: 100%;
   transform-origin: top;
   transition: transform .3s ease-out;
   transform: scaleY(1);
+}
+
+input[type="checkbox"]:checked ~ ul{
+  height: 0;
+  transform: scaleY(0);
 }
 
 input[type="checkbox"]:checked + label{
