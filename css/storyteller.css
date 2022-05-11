@@ -53,6 +53,6 @@
     .center{display: block; margin-left: auto;  margin-right: auto;}
     .storyteller-image img{width: 100%; height: 500px;}
     .storyteller-text {width: 100%; display: block; font-size: 15px; margin: 0px 0px 30px 15px; text-align: justify; padding: 1% 5% 1% 5%;}
-    .ring img{height: 150px; margin: 0 0 3rem 0;}
+    .ring img{height: 200px; margin: 0 0 3rem 0;}
     .profile-text {font-size: 15px;}
 }
