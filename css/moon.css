@@ -4,7 +4,7 @@
 
 .card-M {
   color: #000;
-  padding: 1rem;
+  padding: 0 1rem 0 1rem;
   height: auto;
   width: auto;
 }
@@ -33,10 +33,10 @@
 
 .cards-M img {width: 98%; height:350px; object-fit: cover; padding: 15px; display: block; margin-left: auto;  margin-right: auto;}
 
-.cardcontent-M {width: 98%; padding: 0px 15px 10px 15px; display: block; text-align: justify; font-size: 20px;}
+.cardcontent-M {width: 98%; padding: 0px 15px 0px 15px; display: block; text-align: justify; font-size: 20px;}
 .excerpts p{padding: 0 5% 0 7%;}
 
-.noIMG-M {padding-top: 15px;}
+.noIMG-M {padding-top: 0;}
 
 .moon-media {padding-top: 50px !important;}
 
