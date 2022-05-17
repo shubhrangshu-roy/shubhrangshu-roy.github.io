@@ -17,6 +17,8 @@ a {text-decoration: none;}
 
 .buffer{height:05vh; background: none; color: none;}
 
+.compensate {padding-top: -5rem !important;}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
