@@ -11,6 +11,10 @@
     grid-row: span 4 / auto;
   }
 
+  .card-mega-tall {
+    grid-row: span 6 / auto;
+  }
+
 .card-giga-tall {
   grid-row: span 8 / auto;
 }
