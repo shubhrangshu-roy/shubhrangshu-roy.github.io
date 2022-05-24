@@ -205,6 +205,7 @@ details[open] #close{display:block;}
 .cardTitle {font-size: 30px; text-align: left;}
 
 .bigTitle {font-size: 50px; text-align: center; padding: 3rem 0 3rem 0;}
+.bigTitle a:hover{color: #fff;}
 
 .video {max-width: 960px; max-height: 540px; margin: 0 auto;}
 .video iframe{width:100%; height: 540px;}
