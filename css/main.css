@@ -91,6 +91,8 @@ a {text-decoration: none;}
 
 .nav > #nav-check {display: none;}
 
+.nav > .nav-header > .nav-title > .hubris {}
+
 .nav .nav-links ul a.icon{margin-left: 80px; margin-right: 10px;}
 
 .nav .nav-links ul a i{background-color: #fff; border-radius: 50px; padding: 7px; margin-left: 5px;}
