@@ -23,7 +23,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 .buyNow a{color: #000;}
 .buyNow a:hover{color: #fff; transition: color 0.2s ease-in-out;}
 
-.book-block-2 {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden; padding: 0 0 5rem 0; display: flex; align-items: center;}
+.book-block-2 {background: #fdad00; width:100%; margin:auto; clear:both; overflow: hidden; padding: 0 0 5rem 0;}
 .excerpts {width: 90%; margin: auto; text-align: left;}
 .italics{font-size: 20px; font-style: italic; margin: 30px;}
 
