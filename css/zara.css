@@ -28,6 +28,7 @@ body {margin: 0;background: #EBEAEA;}/*#ea297e*/
 .italics{font-size: 20px; font-style: italic; margin: 30px;}
 
 .dearZara{font-size: 50px; padding: 30px 5% 0 5%; display: block;}
+.dZara{display: flex; align-items: center;}
 .dearZara2{font-size: 25px; text-align: center;}
 
 .flow-body h1{font-size: 50px;  padding: 50px 4% 10px 4%; font-weight: 100;}
