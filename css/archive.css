@@ -1,12 +1,14 @@
-.carousel__snapper::-webkit-scrollbar {
-  width: 0;
+.carousel img{height:100%; margin:0; padding:0;}
+
+*::-webkit-scrollbar {
+  width: 0; height:0;
 }
 
-.carousel__snapper::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.carousel__snapper::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
@@ -35,6 +37,8 @@ ol, li {
   bottom: 0;
   left: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   overflow-x: scroll;
   counter-reset: item;
   scroll-behavior: smooth;
@@ -45,12 +49,7 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
   counter-increment: item;
-}
-
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
 }
 
 .carousel__slide:before {
@@ -149,7 +148,7 @@ ol, li {
 .carousel::before,
 .carousel::after {
   content: '';
-  z-index: 1;
+  z-index: 99;
   background-color: #333;
   background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
