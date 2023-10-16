@@ -1,3 +1,5 @@
+.essay{padding: 2% 5% 5% 5% !important;}
+
 .slideshow {
   width:60%;
   margin: 0 auto;
@@ -13,12 +15,12 @@
 
 #prev,
 #next {
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   display: block;
-  top: 1vh;
-  width: 50px;
-  height: 50px;
+  top: 42vh;
+  width: 100px;
+  height: 100px;
   text-indent: -9999px;
   opacity: 0.5;
 }
@@ -29,16 +31,18 @@
 #prev {
   left: 0;
   background: url(https://image.ibb.co/jevVLk/prev.png);
-  background-size: 50px 50px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
 }
 
 #next {
   right: 0;
   background: url(https://image.ibb.co/eGoT6Q/next.png);
-  background-size: 50px 50px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
 }
 
 @media (max-width:750px) {
   .slideshow {width:90%;}
+  #prev, #next { width: 50px; height: 50px; background-size: 50px 50px;}
+}
