@@ -24,7 +24,7 @@ a {text-decoration: none;}
   position: fixed; /* Fixed/sticky position */
   bottom: 70px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
+  z-index: 102; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #000; /* Set a background color */
@@ -119,7 +119,7 @@ cite {width: 100%; line-height: 3;	text-align: center; display: block;}
 
 .b-t{border: 2px red solid;}
 
-footer{background: #111; height: auto; width: 100%; color: #fff; clear: both; z-index:98;}
+footer{background: #111; height: auto; width: 100%; color: #fff; clear: both; z-index:101;}
 
 #foot{display: none; z-index: 98; position: fixed; bottom: 0; left: 0; right: 0;}
 
