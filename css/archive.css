@@ -1,7 +1,7 @@
 .slideshow {
   width:60%;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: none;
   position: relative;
 }
 
