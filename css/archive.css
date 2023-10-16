@@ -16,22 +16,22 @@
   z-index: 9999;
   display: block;
   top: 100px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   text-indent: -9999px;
 }
 
 #prev {
   left: 0;
   background: url(https://image.ibb.co/jevVLk/prev.png);
-  background-size: 100px 100px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
 }
 
 #next {
   right: 0;
   background: url(https://image.ibb.co/eGoT6Q/next.png);
-  background-size: 100px 100px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
 }
 
