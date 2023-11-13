@@ -53,4 +53,7 @@ img{height: 100%;}
 @media (max-width:750px) {
   .slideshow {width:100%;}
   #prev, #next { width: 50px; height: 50px; background-size: 50px 50px;}
+  .pagenum a{padding:0.6%;}
 }
+
+@media (max-width:360px){.pagenum {display:none;} .pagenum a{color:rgba(0,0,0,0);}}

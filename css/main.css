@@ -301,6 +301,11 @@ p{z-index: 1;}
 .right-book p{padding: 1% 10% 2% 10%;}
 }
 
+@media (max-width:360px) {.nav > .nav-header > .nav-title {
+    text-align: left;
+     padding: 10px 10px 10px 15px;
+        font-size: 22px;}}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
