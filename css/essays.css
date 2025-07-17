@@ -56,8 +56,7 @@ ul{list-style: none; margin: 0; padding: 0;}
 
 .essay iframe {width: 100%; height: 700px; margin-top: 20px;}
 
-.essay-card {box-shadow: inset 3px 3px 5px #434343;
-border-radius: 9px;
+.essay-card {border-radius: 9px;
 background-color: #5a5f6b !important;
 color: #ffffff !important;
   padding: 2rem;
